@@ -1,0 +1,10 @@
+<map id="SWE4211RPi::WiringPiGPIO" name="SWE4211RPi::WiringPiGPIO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,243,221,268"/>
+<area shape="rect" id="Node000002" href="$class_s_w_e4211_r_pi_1_1_g_p_i_o.html" title="GPIO GPIO wrapper classes for usage with C++ and wiringPi." alt="" coords="49,168,193,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,208,124,242,119,242,119,208"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="208,173,220,181,212,188,194,190,193,185,210,183,215,181,205,178"/>
+<area shape="rect" id="Node000003" href="$class_s_w_e4211_r_pi_1_1_generic_thread_info.html" title=" " alt="" coords="5,80,237,105"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="124,119,124,167,119,167,119,119"/>
+<area shape="rect" id="Node000004" href="$class_s_w_e4211_r_pi_1_1_runnable_class.html" title=" " alt="" coords="17,5,225,31"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="124,45,124,80,119,80,119,45"/>
+</map>

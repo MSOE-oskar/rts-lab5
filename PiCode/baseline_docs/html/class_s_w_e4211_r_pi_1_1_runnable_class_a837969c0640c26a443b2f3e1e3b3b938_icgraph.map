@@ -1,0 +1,7 @@
+<map id="SWE4211RPi::RunnableClass::setPriority" name="SWE4211RPi::RunnableClass::setPriority">
+<area shape="rect" id="Node000001" title=" " alt="" coords="312,37,520,77"/>
+<area shape="rect" id="Node000002" href="$class_s_w_e4211_r_pi_1_1_free_running_repeating_task.html#ac65defcba87242a41573c33f33848f2e" title=" " alt="" coords="5,5,264,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="298,47,264,43,264,37,298,41"/>
+<area shape="rect" id="Node000003" href="$class_s_w_e4211_r_pi_1_1_periodic_task.html#a9666634b96ce0a05e3dbbbac3da8c45d" title=" " alt="" coords="38,69,231,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="298,73,232,81,231,76,298,68"/>
+</map>

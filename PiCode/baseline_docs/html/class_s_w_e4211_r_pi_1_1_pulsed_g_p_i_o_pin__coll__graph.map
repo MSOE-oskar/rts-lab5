@@ -1,0 +1,13 @@
+<map id="SWE4211RPi::PulsedGPIOPin" name="SWE4211RPi::PulsedGPIOPin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="33,267,239,292"/>
+<area shape="rect" id="Node000002" href="$class_s_w_e4211_r_pi_1_1_periodic_task.html" title=" " alt="" coords="9,129,202,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,167,136,266,131,267,108,168"/>
+<area shape="rect" id="Node000003" href="$class_s_w_e4211_r_pi_1_1_runnable_class.html" title=" " alt="" coords="5,5,213,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,45,108,129,103,129,106,44"/>
+<area shape="rect" id="Node000005" href="$class_s_w_e4211_r_pi_1_1_generic_thread_info.html" title=" " alt="" coords="131,80,363,105"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="145,35,226,77,223,82,142,40"/>
+<area shape="rect" id="Node000004" href="$class_s_w_e4211_r_pi_1_1_g_p_i_o.html" title="GPIO GPIO wrapper classes for usage with C++ and wiringPi." alt="" coords="160,179,304,204"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,215,151,268,148,264,207,211"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="319,183,331,191,322,199,304,202,304,196,320,194,325,192,316,188"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="245,120,236,179,231,178,240,119"/>
+</map>

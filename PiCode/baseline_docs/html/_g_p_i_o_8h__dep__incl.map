@@ -1,0 +1,18 @@
+<map id="/media/sf_lwshare/20262027SWE4211AllLabSolutions/Lab5/samplesolution/PiCode/src/gpio/provided/GPIO.h" name="/media/sf_lwshare/20262027SWE4211AllLabSolutions/Lab5/samplesolution/PiCode/src/gpio/provided/GPIO.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="296,5,507,75"/>
+<area shape="rect" id="Node000002" href="$_light_controller_8h.html" title=" " alt="" coords="5,123,216,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="305,82,197,125,195,120,303,77"/>
+<area shape="rect" id="Node000004" href="$_g_p_i_o_8cpp.html" title=" " alt="" coords="396,240,607,309"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="316,85,296,103,281,124,273,142,269,158,272,173,281,190,304,215,332,235,363,249,396,259,395,264,362,254,329,239,300,219,276,194,267,175,264,158,268,141,276,121,292,99,313,81"/>
+<area shape="rect" id="Node000005" href="$_lgpio_g_p_i_o_8h_source.html" title=" " alt="" coords="291,123,512,192"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="404,89,404,122,399,122,399,89"/>
+<area shape="rect" id="Node000006" href="$_pulsed_g_p_i_o_pin_8h_source.html" title=" " alt="" coords="801,123,1050,192"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="521,63,789,120,801,123,800,128,787,125,520,68"/>
+<area shape="rect" id="Node000008" href="$_wiring_pi_g_p_i_o_8h_source.html" title=" " alt="" coords="536,123,776,192"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="489,78,583,120,580,125,487,83"/>
+<area shape="rect" id="Node000003" href="$_light_controller_8cpp.html" title=" " alt="" coords="5,240,216,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,206,113,240,108,240,108,206"/>
+<area shape="rect" id="Node000007" href="$_p_w_m_g_p_i_o_pin_8h.html" title=" " alt="" coords="806,240,1045,309"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="928,206,928,240,923,240,923,206"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="601,203,548,242,545,237,598,198"/>
+</map>

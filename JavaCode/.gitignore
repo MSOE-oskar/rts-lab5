@@ -1,0 +1,12 @@
+out/production/
+.idea/
+JavaCode.iml
+build/.cproject
+build/.project
+build/cmake_install.cmake
+build/CMakeCache.txt
+build/Makefile
+build/CMakeFiles/
+build/lightdemo1
+src/.project
+

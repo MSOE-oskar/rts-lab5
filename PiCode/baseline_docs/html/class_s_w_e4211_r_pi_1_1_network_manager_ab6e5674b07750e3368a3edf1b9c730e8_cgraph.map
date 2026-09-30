@@ -1,0 +1,12 @@
+<map id="SWE4211RPi::NetworkManager::run" name="SWE4211RPi::NetworkManager::run">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,77,259,102"/>
+<area shape="rect" id="Node000002" href="$class_s_w_e4211_r_pi_1_1_network_manager.html#af676095962d54e75bbfdd1a66f0135ff" title=" " alt="" coords="307,5,531,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,74,314,46,316,51,190,79"/>
+<area shape="rect" id="Node000004" href="$class_s_w_e4211_r_pi_1_1_network_manager.html#a3a3c4a6818d383e0082ed9e69fb1af29" title=" " alt="" coords="307,69,531,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,87,293,87,293,92,259,92"/>
+<area shape="rect" id="Node000005" href="$class_s_w_e4211_r_pi_1_1_network_manager.html#ac721563361e7a3979c20c8d7049dd400" title=" " alt="" coords="307,133,531,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="190,99,316,128,314,133,189,105"/>
+<area shape="rect" id="Node000003" href="$class_s_w_e4211_r_pi_1_1_command_queue.html#a81c875f9effe97ead2c6e61e4688a8b0" title=" " alt="" coords="579,69,800,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="505,43,592,64,590,69,503,48"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="503,131,590,110,592,115,505,136"/>
+</map>

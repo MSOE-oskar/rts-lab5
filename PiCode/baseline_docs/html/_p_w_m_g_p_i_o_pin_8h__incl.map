@@ -1,0 +1,30 @@
+<map id="/media/sf_lwshare/20262027SWE4211AllLabSolutions/Lab5/samplesolution/PiCode/src/gpio/provided/PWMGPIOPin.h" name="/media/sf_lwshare/20262027SWE4211AllLabSolutions/Lab5/samplesolution/PiCode/src/gpio/provided/PWMGPIOPin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,244,75"/>
+<area shape="rect" id="Node000002" href="$_pulsed_g_p_i_o_pin_8h_source.html" title=" " alt="" coords="60,123,189,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,75,127,109,122,109,122,75"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="29,416,87,441"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,150,87,200,70,234,58,270,52,305,51,341,56,402,51,402,46,341,47,305,53,269,65,232,82,198,114,147"/>
+<area shape="rect" id="Node000004" href="$_periodic_task_8h.html" title=" " alt="" coords="67,269,182,295"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="127,148,127,256,122,256,122,148"/>
+<area shape="rect" id="Node000010" href="$_g_p_i_o_8h.html" title=" " alt="" coords="317,196,383,221"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="162,145,304,190,303,195,160,151"/>
+<area shape="rect" id="Node000005" href="$_runnable_class_8h.html" title=" " alt="" coords="182,343,313,368"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="146,292,217,333,214,338,143,297"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="91,343,158,368"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="127,295,127,329,122,329,122,295"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="218,371,101,414,100,409,216,366"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="138,416,202,441"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="237,370,195,408,191,405,233,366"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="226,416,269,441"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="250,368,250,402,245,402,245,368"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="293,416,389,441"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="264,366,316,405,313,410,261,370"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="385,269,449,295"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="363,220,398,257,395,261,359,223"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="473,269,616,295"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="382,219,501,262,499,267,380,224"/>
+<area shape="rect" id="Node000013" href="$_generic_thread_info_8h_source.html" title=" " alt="" coords="206,269,361,295"/>
+<area shape="poly" id="edge13_Node000010_Node000013" title=" " alt="" coords="341,223,305,261,302,257,337,220"/>
+<area shape="poly" id="edge14_Node000013_Node000005" title=" " alt="" coords="280,296,262,332,257,329,275,294"/>
+<area shape="poly" id="edge15_Node000013_Node000009" title=" " alt="" coords="259,297,164,339,162,335,257,292"/>
+</map>
