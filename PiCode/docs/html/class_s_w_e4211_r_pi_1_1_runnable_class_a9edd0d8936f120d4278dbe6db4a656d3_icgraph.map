@@ -1,0 +1,13 @@
+<map id="SWE4211RPi::RunnableClass::getPriority" name="SWE4211RPi::RunnableClass::getPriority">
+<area shape="rect" id="Node000001" title=" " alt="" coords="568,101,776,141"/>
+<area shape="rect" id="Node000002" href="$class_s_w_e4211_r_pi_1_1_pulsed_g_p_i_o_pin.html#a17ca418fa1022f39a50506fa199127b3" title=" " alt="" coords="287,5,494,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="615,98,519,60,479,48,481,43,521,55,617,93"/>
+<area shape="rect" id="Node000003" href="$class_s_w_e4211_r_pi_1_1_free_running_repeating_task.html#a7989e3604090ffdc75303d26033221d2" title=" " alt="" coords="261,69,520,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="554,111,520,107,520,101,554,105"/>
+<area shape="rect" id="Node000004" href="$class_s_w_e4211_r_pi_1_1_periodic_task.html#acafc45d64ad77c44050319625457ae36" title=" " alt="" coords="294,133,487,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="554,137,488,145,487,140,554,132"/>
+<area shape="rect" id="Node000005" href="$class_s_w_e4211_r_pi_1_1_runnable_class.html#a973067d91c9f937aa059c7ab15eb9945" title=" " alt="" coords="287,197,495,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="617,149,521,188,481,200,479,195,519,183,615,145"/>
+<area shape="rect" id="Node000006" href="$class_s_w_e4211_r_pi_1_1_runnable_class.html#ab22b1a678667a1e757e5ff33107b92c4" title=" " alt="" coords="5,197,213,237"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="273,220,214,220,214,215,273,215"/>
+</map>

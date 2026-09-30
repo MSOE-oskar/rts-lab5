@@ -1,0 +1,7 @@
+<map id="SWE4211RPi::PWMGPIOPin::PWMGPIOPin" name="SWE4211RPi::PWMGPIOPin::PWMGPIOPin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,203,45"/>
+<area shape="rect" id="Node000002" href="$class_s_w_e4211_r_pi_1_1_p_w_m_g_p_i_o_pin.html#ab1990029026ccad1fc9bb7fee91abb0b" title=" " alt="" coords="251,5,448,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,23,237,23,237,28,203,28"/>
+<area shape="rect" id="Node000003" href="$class_s_w_e4211_r_pi_1_1_pulsed_g_p_i_o_pin.html#a44c7656cdc0700a894127338c1cbbc99" title=" " alt="" coords="496,5,703,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,23,482,23,482,28,448,28"/>
+</map>
