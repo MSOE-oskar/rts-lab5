@@ -7,6 +7,7 @@
 using namespace SWE4211RPi;
 
 // From https://sources.debian.org/src/util-linux/2.38.1-1.1/schedutils/sched_attr.h/
+#ifndef SCHED_ATTR_SIZE_VER0
 struct sched_attr {
 	uint32_t size;
 	uint32_t sched_policy;
@@ -27,6 +28,7 @@ struct sched_attr {
 	uint32_t sched_util_min;
 	uint32_t sched_util_max;
 };
+#endif
 
 /**
  * This is the default constructor for the class.
