@@ -32,4 +32,58 @@
  */
 
 #include "CommandQueue.h"
+#include <cerrno>
 #include <semaphore.h>
+#include <system_error>
+
+namespace SWE4211RPi
+{
+
+    CommandQueue::CommandQueue()
+    {
+        if (sem_init(&queueCountSemaphore, 0, 0) != 0)
+        {
+            throw std::system_error(errno, std::generic_category(), "sem_init");
+        }
+    }
+
+    bool CommandQueue::hasItem()
+    {
+        std::lock_guard<std::mutex> lock(queueMutex);
+        return !commandQueueContents.empty();
+    }
+
+    CommandQueue::~CommandQueue()
+    {
+        sem_destroy(&queueCountSemaphore);
+    }
+
+    void CommandQueue::enqueue(CommandQueueEntry value)
+    {
+        {
+            std::lock_guard<std::mutex> lock(queueMutex);
+            commandQueueContents.push(value);
+        }
+        if (sem_post(&queueCountSemaphore) != 0)
+        {
+            throw std::system_error(errno, std::generic_category(), "sem_post");
+        }
+    }
+
+    CommandQueueEntry CommandQueue::dequeue()
+    {
+        while (sem_wait(&queueCountSemaphore) != 0)
+        {
+            if (errno != EINTR)
+            {
+                throw std::system_error(errno, std::generic_category(), "sem_wait");
+            }
+        }
+
+        std::lock_guard<std::mutex> lock(queueMutex);
+        CommandQueueEntry value = commandQueueContents.front();
+        commandQueueContents.pop();
+        return value;
+    }
+
+} // namespace SWE4211RPi

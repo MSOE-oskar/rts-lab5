@@ -28,3 +28,42 @@
 #include "CommandQueue.h"
 #include "LightController.h"
 #include "NetworkCommands.h"
+#include "gpio/provided/GPIO.h"
+#include "networking/provided/NetworkCommands.h"
+#include "queuing/CommandQueue.h"
+#include "tasking/provided/PeriodicTask.h"
+
+
+LightController::LightController(int gpioOutPin, int gpioInPin, SWE4211RPi::CommandQueue& queue, std::string threadName, uint32_t period) : SWE4211RPi::PeriodicTask(threadName, period), referencequeue(queue),light(SWE4211RPi::GPIO::getInstance(gpioOutPin, SWE4211RPi::GPIO::GPIO_OUT)), pushbutton(SWE4211RPi::GPIO::getInstance(gpioInPin, SWE4211RPi::GPIO::GPIO_IN)) {}
+
+LightController::~LightController() {
+    delete &referencequeue;
+    delete &light;
+    delete &pushbutton;
+}
+
+void LightController::taskMethod() {
+    int percent;
+    while (referencequeue.hasItem()) {
+        SWE4211RPi::CommandQueueEntry val = referencequeue.dequeue();
+
+        switch (val.command) {
+            case LIGHTOFFCMD:
+                light.setValue(SWE4211RPi::GPIO::GPIO_HIGH);
+                break;
+            case LIGHTONCMD:
+                light.setValue(SWE4211RPi::GPIO::GPIO_LOW);
+                break;
+            case LIGHTPWMADJUSTMENTCMD:
+                if (val.parameter1.length() >= 0 || val.parameter2.length() <= 1000) {
+                    percent = val.parameter1 / 10;
+                }
+                break;
+            default:
+                std::cerr << "IN SWITCH" << std::endl;
+                break;
+        }
+    }
+
+
+}
