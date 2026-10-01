@@ -28,6 +28,6 @@
 /**
  * Define the number of queues present in the system.
  */
-#define NUMBER_OF_QUEUES (2)
+#define ES (2)
 
 #endif /* NETWORKCFG_H_ */
